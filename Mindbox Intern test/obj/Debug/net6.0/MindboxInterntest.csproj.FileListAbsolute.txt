@@ -1,0 +1,11 @@
+C:\Users\sasha\source\repos\Mindbox-Intern-test\Mindbox Intern test\bin\Debug\net6.0\MindboxInterntest.deps.json
+C:\Users\sasha\source\repos\Mindbox-Intern-test\Mindbox Intern test\bin\Debug\net6.0\MindboxInterntest.dll
+C:\Users\sasha\source\repos\Mindbox-Intern-test\Mindbox Intern test\bin\Debug\net6.0\MindboxInterntest.pdb
+C:\Users\sasha\source\repos\Mindbox-Intern-test\Mindbox Intern test\obj\Debug\net6.0\MindboxInterntest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sasha\source\repos\Mindbox-Intern-test\Mindbox Intern test\obj\Debug\net6.0\MindboxInterntest.AssemblyInfoInputs.cache
+C:\Users\sasha\source\repos\Mindbox-Intern-test\Mindbox Intern test\obj\Debug\net6.0\MindboxInterntest.AssemblyInfo.cs
+C:\Users\sasha\source\repos\Mindbox-Intern-test\Mindbox Intern test\obj\Debug\net6.0\MindboxInterntest.csproj.CoreCompileInputs.cache
+C:\Users\sasha\source\repos\Mindbox-Intern-test\Mindbox Intern test\obj\Debug\net6.0\MindboxInterntest.dll
+C:\Users\sasha\source\repos\Mindbox-Intern-test\Mindbox Intern test\obj\Debug\net6.0\refint\MindboxInterntest.dll
+C:\Users\sasha\source\repos\Mindbox-Intern-test\Mindbox Intern test\obj\Debug\net6.0\MindboxInterntest.pdb
+C:\Users\sasha\source\repos\Mindbox-Intern-test\Mindbox Intern test\obj\Debug\net6.0\ref\MindboxInterntest.dll
