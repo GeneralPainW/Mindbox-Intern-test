@@ -9,3 +9,4 @@ C:\Users\sasha\source\repos\Mindbox-Intern-test\Mindbox Intern test\obj\Debug\ne
 C:\Users\sasha\source\repos\Mindbox-Intern-test\Mindbox Intern test\obj\Debug\net6.0\refint\MindboxInterntest.dll
 C:\Users\sasha\source\repos\Mindbox-Intern-test\Mindbox Intern test\obj\Debug\net6.0\MindboxInterntest.pdb
 C:\Users\sasha\source\repos\Mindbox-Intern-test\Mindbox Intern test\obj\Debug\net6.0\ref\MindboxInterntest.dll
+C:\Users\sasha\source\repos\Mindbox-Intern-test\Mindbox Intern test\obj\Debug\net6.0\MindboxInterntest.sourcelink.json

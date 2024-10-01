@@ -34,3 +34,4 @@ C:\Users\sasha\source\repos\Mindbox-Intern-test\ConsoleApp1\obj\Debug\net6.0\ref
 C:\Users\sasha\source\repos\Mindbox-Intern-test\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.pdb
 C:\Users\sasha\source\repos\Mindbox-Intern-test\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.genruntimeconfig.cache
 C:\Users\sasha\source\repos\Mindbox-Intern-test\ConsoleApp1\obj\Debug\net6.0\ref\ConsoleApp1.dll
+C:\Users\sasha\source\repos\Mindbox-Intern-test\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.sourcelink.json

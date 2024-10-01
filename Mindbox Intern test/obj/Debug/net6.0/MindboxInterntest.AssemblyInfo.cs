@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MindboxInterntest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+314693866dbb6dac63bbe11715f66544ae3b9aac")]
 [assembly: System.Reflection.AssemblyProductAttribute("MindboxInterntest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MindboxInterntest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

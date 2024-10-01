@@ -1,0 +1,50 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web-app
+  labels:
+    app: web-app
+spec:
+  replicas: 3  # Нам нужно 3 пода для стабильной работы
+  selector:
+    matchLabels:
+      app: web-app
+  template:
+    metadata:
+      labels:
+        app: web-app
+    spec:
+      containers:
+      - name: web-app-container
+        image: app-image  # Необходимо указать актуальный образ
+        ports:
+        - containerPort: 80
+        resources:
+          requests:
+            memory: "128Mi"  # Приложение стабильно потребляет 128MB памяти
+            cpu: "100m"      # Стабильное потребление CPU после инициализации
+          limits:
+            memory: "128Mi"  # Лимит по памяти
+            cpu: "500m"      # Во время инициализации приложению нужно больше CPU
+        readinessProbe:  # Проверка на готовность пода принимать запросы
+          httpGet:
+            path: /healthz  # Здесь должен быть путь к эндпоинту, который проверяет состояние приложения
+            port: 80
+          initialDelaySeconds: 10  # Приложение инициализируется за 5-10 секунд, даем 10 секунд до первой проверки
+          periodSeconds: 5
+        livenessProbe:  # Проверка на живучесть пода
+          httpGet:
+            path: /healthz  # Этот же эндпоинт можно использовать для проверки живучести
+            port: 80
+          initialDelaySeconds: 30  # Даем больше времени на инициализацию до первой проверки живучести
+          periodSeconds: 10
+      affinity:  # Настройка анти-афинности
+        podAntiAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+          - labelSelector:
+              matchExpressions:
+              - key: app
+                operator: In
+                values:
+                - web-app
+            topologyKey: "kubernetes.io/hostname"  # Под должен быть на разных нодах
